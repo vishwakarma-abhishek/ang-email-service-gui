@@ -19,7 +19,7 @@
 
             <mat-form-field class="example-full-width field" >
                 <mat-label >Message</mat-label >
-                <textarea name="message" [(ngModel)]='data.message' rows="8" matInput ></textarea>
+                <textarea id="message" name="message" [(ngModel)]='data.message' rows="8" matInput ></textarea>
             </mat-form-field>
             <mat-progress-spinner *ngIf="!spinerFlag" class="spiner" mode="indeterminate"></mat-progress-spinner>
            
