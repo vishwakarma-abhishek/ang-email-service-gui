@@ -1,0 +1,33 @@
+.field{
+    width: 100%;
+}
+.card{
+    width: 45%;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.card h1{
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+    
+    padding-bottom: 5px;
+}
+
+.text-center{
+    text-align: right;
+}
+.card button{
+
+    margin: 10px;
+}
+
+.spiner{
+    position:absolute;
+    top:35%;
+    left: 47%;
+    align-items: center;
+    ;
+}
